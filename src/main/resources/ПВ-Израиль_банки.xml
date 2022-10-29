@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mass>
+	<rows>
+		<row>
+			<num>1</num>
+			<identif_number>номер дела</identif_number>	
+			<name>Ф.И.О. на латинице</name>	
+			<address>BANK LEUMI LE ISRAEL B.M. 868  Petah Tikva  Israel 244769/50</address>
+			<period>01.10.2020-30.06.2021</period>
+			<usd>100.98</usd>
+		</row>		
+		<row>
+			<num>2</num>
+			<identif_number>номер дела</identif_number>	
+			<name>Ф.И.О. на латинице</name>	
+			<address>BANK LEUMI LE ISRAEL B.M. 868  Petah Tikva  Israel 244769/50</address>
+			<period>01.10.2020-30.06.2021</period>
+			<usd>414.97</usd>
+		</row>	
+		<row>
+			<num>3</num>
+			<identif_number>номер дела</identif_number>	
+			<name>Ф.И.О. на латинице</name>	
+			<address>BANK LEUMI LE ISRAEL B.M. 868  Petah Tikva  Israel 244769/50</address>
+			<period>01.10.2020-30.06.2021</period>
+			<usd>12129.12</usd>
+		</row>	
+	</rows>
+</mass>
