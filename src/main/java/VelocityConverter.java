@@ -30,7 +30,7 @@ public class VelocityConverter {
         byte[] bytes = stringWriter.toString().getBytes(Charset.forName("windows-1251"));
         String result = Arrays.toString(bytes);
 
-        FileUtils.writeByteArrayToFile(new File("src/main/resources/result.txt"), bytes);
+        FileUtils.writeByteArrayToFile(new File("src/main/resources/result.xml"), bytes);
 
         System.out.println(result);
     }

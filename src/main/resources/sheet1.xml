@@ -108,7 +108,8 @@
             <c r="D7" s="19"/>
             <c r="E7" s="20"/>
             <c r="F7" s="8">
-                <v>6101.54</v>
+                #set( $a = "Velocity" )
+                <v>$a</v>
             </c>
             <c r="G7" s="9"/>
         </row>
@@ -164,6 +165,6 @@
     <pageMargins left="0" right="0" top="0.35433070866141736" bottom="0.55118110236220474" header="0.31496062992125984" footer="0.51181102362204722"/>
     <pageSetup paperSize="9" scale="85" orientation="portrait" r:id="rId1"/>
     <headerFooter>
-        <oddFooter>Страница &amp;P</oddFooter>
+        <oddFooter>Page</oddFooter>
     </headerFooter>
 </worksheet>
