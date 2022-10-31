@@ -14,7 +14,7 @@ public class VelocityConverter {
     public static void main(String[] args) throws IOException {
         VelocityContext context = new VelocityContext();
 
-        File file = new File("src/main/resources/ПВ-Израиль_банки.xml");
+        File file = new File("src/main/resources/in/ПВ-Израиль_банки.xml");
         XStream xStream = new XStream(new DomDriver());
         // Написать корневой элемент вместо mass
         xStream.alias("mass", Map.class);
@@ -24,13 +24,13 @@ public class VelocityConverter {
         context.put("data", map);
 
         StringWriter stringWriter = new StringWriter();
-        Reader reader = new FileReader("src/main/resources/sheet1.xml");
+        Reader reader = new FileReader("src/main/resources/in/sheet1.xml");
         Velocity.evaluate(context, stringWriter, "VelocityService", reader);
 
         byte[] bytes = stringWriter.toString().getBytes(Charset.forName("windows-1251"));
         String result = Arrays.toString(bytes);
 
-        FileUtils.writeByteArrayToFile(new File("src/main/resources/result.xml"), bytes);
+        FileUtils.writeByteArrayToFile(new File("src/main/resources/out/sheet1.xml"), bytes);
 
         System.out.println(result);
     }
