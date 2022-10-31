@@ -3,7 +3,7 @@
 	<rows>
 		<row>
 			<num>1</num>
-			<identif_number>номер дела</identif_number>	
+			<identif_number>номер дела 1</identif_number>
 			<name>Ф.И.О. на латинице</name>	
 			<address>BANK LEUMI LE ISRAEL B.M. 868  Petah Tikva  Israel 244769/50</address>
 			<period>01.10.2020-30.06.2021</period>
@@ -11,7 +11,7 @@
 		</row>		
 		<row>
 			<num>2</num>
-			<identif_number>номер дела</identif_number>	
+			<identif_number>номер дела 2</identif_number>
 			<name>Ф.И.О. на латинице</name>	
 			<address>BANK LEUMI LE ISRAEL B.M. 868  Petah Tikva  Israel 244769/50</address>
 			<period>01.10.2020-30.06.2021</period>
@@ -19,7 +19,7 @@
 		</row>	
 		<row>
 			<num>3</num>
-			<identif_number>номер дела</identif_number>	
+			<identif_number>номер дела 3</identif_number>
 			<name>Ф.И.О. на латинице</name>	
 			<address>BANK LEUMI LE ISRAEL B.M. 868  Petah Tikva  Israel 244769/50</address>
 			<period>01.10.2020-30.06.2021</period>

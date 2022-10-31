@@ -24,10 +24,10 @@ public class VelocityConverter {
         context.put("data", map);
 
         StringWriter stringWriter = new StringWriter();
-        Reader reader = new FileReader("src/main/resources/in/sheet1.xml");
+        Reader reader = new FileReader("src/main/resources/in/sheet1.xml", StandardCharsets.UTF_8);
         Velocity.evaluate(context, stringWriter, "VelocityService", reader);
 
-        byte[] bytes = stringWriter.toString().getBytes(Charset.forName("windows-1251"));
+        byte[] bytes = stringWriter.toString().getBytes(StandardCharsets.UTF_8);
         String result = Arrays.toString(bytes);
 
         FileUtils.writeByteArrayToFile(new File("src/main/resources/out/sheet1.xml"), bytes);
