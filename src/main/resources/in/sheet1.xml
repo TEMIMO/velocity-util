@@ -108,7 +108,7 @@
             <c r="D7" s="19"/>
             <c r="E7" s="20"/>
             <c r="F7" s="8">
-                #set( $a = $data.rowsrownum1)
+                #set( $a = $data.tofName1)
                 <v>$a</v>
             </c>
             <c r="G7" s="9"/>
