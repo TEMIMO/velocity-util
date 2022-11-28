@@ -10,7 +10,7 @@
         <IsMirFlag>1</IsMirFlag>
         <AppNumberAccountingPolicy>1128</AppNumberAccountingPolicy>
         <Number>string</Number>
-        <AppCompletionDate>27.11.2022</AppCompletionDate>
+        <AppCompletionDate>2022-11-28</AppCompletionDate>
         <Month>6</Month>
         <Quarter>2</Quarter>
         <Year>2022</Year>
@@ -36,8 +36,8 @@
         <IncomeTypeCode>IncomeTypeCode</IncomeTypeCode>
         <KBKIncome>KBKIncome</KBKIncome>
         <TypeOperation>TypeOperation</TypeOperation>
-        <PaymentDate>PaymentDate</PaymentDate>
-        <DeliveryDate>DeliveryDate</DeliveryDate>
+        <PaymentDate>2022-11-28</PaymentDate>
+        <DeliveryDate>2022-11-28</DeliveryDate>
         <MonetaryUnit>RUB</MonetaryUnit>
         <MonetaryUnitCodeOKEI>OKEI</MonetaryUnitCodeOKEI>
         <MethodTransferringFunds>MethodTransferringFunds</MethodTransferringFunds>
@@ -72,9 +72,9 @@
                     <INN>INN</INN>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>179.77</RetentionTotal>
-                    <Postage>070.23</Postage>
-                    <DeliveryCost>499.77</DeliveryCost>
+                    <RetentionTotal>179</RetentionTotal>
+                    <Postage>70</Postage>
+                    <DeliveryCost>499</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>7</RetentionType>
@@ -88,9 +88,9 @@
                 </Recoverer>
             </DeductionsByTypePayment>
             <TotalWithheldPayment>
-                <AmountRetentionAll>939.77</AmountRetentionAll>
-                <Postage>750.23</Postage>
-                <DeliveryCost>619.77</DeliveryCost>
+                <AmountRetentionAll>939</AmountRetentionAll>
+                <Postage>750</Postage>
+                <DeliveryCost>619</DeliveryCost>
             </TotalWithheldPayment>
         </Payments>
         <Payments>
@@ -109,9 +109,9 @@
                     <INN>INN</INN>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>900.23</RetentionTotal>
-                    <Postage>129.77</Postage>
-                    <DeliveryCost>109.77</DeliveryCost>
+                    <RetentionTotal>900</RetentionTotal>
+                    <Postage>129</Postage>
+                    <DeliveryCost>109</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>6</RetentionType>
@@ -128,15 +128,15 @@
                     <Snils>string</Snils>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>530.23</RetentionTotal>
-                    <Postage>309.77</Postage>
-                    <DeliveryCost>749.77</DeliveryCost>
+                    <RetentionTotal>530</RetentionTotal>
+                    <Postage>309</Postage>
+                    <DeliveryCost>749</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>6</RetentionType>
                     <DocumentName>string</DocumentName>
                     <DocumentNumber>string</DocumentNumber>
-                    <Date>Date</Date>
+                    <Date>2022-11-28</Date>
                 </PurposePayment>
                 <Recoverer>
                     <Snils>string</Snils>
@@ -152,15 +152,15 @@
                     <INN>INN</INN>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>540.23</RetentionTotal>
-                    <Postage>099.77</Postage>
-                    <DeliveryCost>730.23</DeliveryCost>
+                    <RetentionTotal>540</RetentionTotal>
+                    <Postage>99</Postage>
+                    <DeliveryCost>730</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>5</RetentionType>
                     <DocumentName>string</DocumentName>
                     <DocumentNumber>string</DocumentNumber>
-                    <Date>Date</Date>
+                    <Date>2022-11-28</Date>
                 </PurposePayment>
                 <Recoverer>
                     <Snils>string</Snils>
@@ -176,21 +176,21 @@
                     <INN>INN</INN>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>960.23</RetentionTotal>
-                    <Postage>650.23</Postage>
-                    <DeliveryCost>260.23</DeliveryCost>
+                    <RetentionTotal>960</RetentionTotal>
+                    <Postage>650</Postage>
+                    <DeliveryCost>260</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>4</RetentionType>
                     <DocumentName>string</DocumentName>
                     <DocumentNumber>string</DocumentNumber>
-                    <Date>Date</Date>
+                    <Date>2022-11-28</Date>
                 </PurposePayment>
             </DeductionsByTypePayment>
             <TotalWithheldPayment>
-                <AmountRetentionAll>140.23</AmountRetentionAll>
-                <Postage>280.23</Postage>
-                <DeliveryCost>340.23</DeliveryCost>
+                <AmountRetentionAll>140</AmountRetentionAll>
+                <Postage>280</Postage>
+                <DeliveryCost>340</DeliveryCost>
             </TotalWithheldPayment>
         </Payments>
         <Payments>
@@ -208,15 +208,15 @@
                     <INN>INN</INN>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>430.23</RetentionTotal>
-                    <Postage>869.77</Postage>
-                    <DeliveryCost>180.23</DeliveryCost>
+                    <RetentionTotal>430</RetentionTotal>
+                    <Postage>869</Postage>
+                    <DeliveryCost>180</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>7</RetentionType>
                     <DocumentName>string</DocumentName>
                     <DocumentNumber>string</DocumentNumber>
-                    <Date>Date</Date>
+                    <Date>2022-11-28</Date>
                 </PurposePayment>
                 <Recoverer>
                     <Snils>string</Snils>
@@ -232,21 +232,21 @@
                     <INN>INN</INN>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>450.23</RetentionTotal>
-                    <Postage>819.77</Postage>
-                    <DeliveryCost>869.77</DeliveryCost>
+                    <RetentionTotal>450</RetentionTotal>
+                    <Postage>819</Postage>
+                    <DeliveryCost>869</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>4</RetentionType>
                     <DocumentName>string</DocumentName>
                     <DocumentNumber>string</DocumentNumber>
-                    <Date>Date</Date>
+                    <Date>2022-11-28</Date>
                 </PurposePayment>
             </DeductionsByTypePayment>
             <TotalWithheldPayment>
-                <AmountRetentionAll>399.77</AmountRetentionAll>
-                <Postage>800.23</Postage>
-                <DeliveryCost>940.23</DeliveryCost>
+                <AmountRetentionAll>399</AmountRetentionAll>
+                <Postage>800</Postage>
+                <DeliveryCost>940</DeliveryCost>
             </TotalWithheldPayment>
         </Payments>
         <Payments>
@@ -265,15 +265,15 @@
                     <INN>INN</INN>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>629.77</RetentionTotal>
-                    <Postage>079.77</Postage>
-                    <DeliveryCost>860.23</DeliveryCost>
+                    <RetentionTotal>629</RetentionTotal>
+                    <Postage>79</Postage>
+                    <DeliveryCost>860</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>6</RetentionType>
                     <DocumentName>string</DocumentName>
                     <DocumentNumber>string</DocumentNumber>
-                    <Date>Date</Date>
+                    <Date>2022-11-28</Date>
                 </PurposePayment>
             </DeductionsByTypePayment>
             <DeductionsByTypePayment>
@@ -285,15 +285,15 @@
                     <INN>INN</INN>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>479.77</RetentionTotal>
-                    <Postage>720.23</Postage>
-                    <DeliveryCost>150.23</DeliveryCost>
+                    <RetentionTotal>479</RetentionTotal>
+                    <Postage>720</Postage>
+                    <DeliveryCost>150</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>3</RetentionType>
                     <DocumentName>string</DocumentName>
                     <DocumentNumber>string</DocumentNumber>
-                    <Date>Date</Date>
+                    <Date>2022-11-28</Date>
                 </PurposePayment>
                 <Recoverer>
                     <Snils>string</Snils>
@@ -310,21 +310,21 @@
                     <INN>INN</INN>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>260.23</RetentionTotal>
-                    <Postage>470.23</Postage>
-                    <DeliveryCost>400.23</DeliveryCost>
+                    <RetentionTotal>260</RetentionTotal>
+                    <Postage>470</Postage>
+                    <DeliveryCost>400</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>6</RetentionType>
                     <DocumentName>string</DocumentName>
                     <DocumentNumber>string</DocumentNumber>
-                    <Date>Date</Date>
+                    <Date>2022-11-28</Date>
                 </PurposePayment>
             </DeductionsByTypePayment>
             <TotalWithheldPayment>
-                <AmountRetentionAll>600.23</AmountRetentionAll>
-                <Postage>310.23</Postage>
-                <DeliveryCost>909.77</DeliveryCost>
+                <AmountRetentionAll>600</AmountRetentionAll>
+                <Postage>310</Postage>
+                <DeliveryCost>909</DeliveryCost>
             </TotalWithheldPayment>
         </Payments>
         <Payments>
@@ -342,15 +342,15 @@
                     <INN>INN</INN>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>349.77</RetentionTotal>
-                    <Postage>050.23</Postage>
-                    <DeliveryCost>769.77</DeliveryCost>
+                    <RetentionTotal>349</RetentionTotal>
+                    <Postage>50</Postage>
+                    <DeliveryCost>769</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>2</RetentionType>
                     <DocumentName>string</DocumentName>
                     <DocumentNumber>string</DocumentNumber>
-                    <Date>Date</Date>
+                    <Date>2022-11-28</Date>
                 </PurposePayment>
             </DeductionsByTypePayment>
             <DeductionsByTypePayment>
@@ -363,15 +363,15 @@
                     <INN>INN</INN>
                 </PersonInfo>
                 <amounts>
-                    <RetentionTotal>790.23</RetentionTotal>
-                    <Postage>779.77</Postage>
-                    <DeliveryCost>959.77</DeliveryCost>
+                    <RetentionTotal>790</RetentionTotal>
+                    <Postage>779</Postage>
+                    <DeliveryCost>959</DeliveryCost>
                 </amounts>
                 <PurposePayment>
                     <RetentionType>6</RetentionType>
                     <DocumentName>string</DocumentName>
                     <DocumentNumber>string</DocumentNumber>
-                    <Date>Date</Date>
+                    <Date>2022-11-28</Date>
                 </PurposePayment>
                 <Recoverer>
                     <Snils>string</Snils>
@@ -379,13 +379,13 @@
                 </Recoverer>
             </DeductionsByTypePayment>
             <TotalWithheldPayment>
-                <AmountRetentionAll>420.23</AmountRetentionAll>
-                <Postage>859.77</Postage>
-                <DeliveryCost>470.23</DeliveryCost>
+                <AmountRetentionAll>420</AmountRetentionAll>
+                <Postage>859</Postage>
+                <DeliveryCost>470</DeliveryCost>
             </TotalWithheldPayment>
         </Payments>
-        <AmountRetentionTotal>789.77</AmountRetentionTotal>
-        <PostageTotal>50.23</PostageTotal>
-        <DeliveryCostTotal>249.77</DeliveryCostTotal>
+        <AmountRetentionTotal>789</AmountRetentionTotal>
+        <PostageTotal>50</PostageTotal>
+        <DeliveryCostTotal>249</DeliveryCostTotal>
     </Table>
 </Message>

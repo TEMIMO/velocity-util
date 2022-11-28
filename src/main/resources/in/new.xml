@@ -204,7 +204,7 @@
             <c r="A8" s="78" t="inlineStr">
                 <is>
                     <t>
-                        #if($message.main.appCompletionDate) на $message.main.appCompletionDate г.#{else} на г. #end
+                        #if($message.main.appCompletionDate) на $dateConverter.convert($message.main.appCompletionDate) г.#{else} на г. #end
                     </t>
                 </is>
             </c>
@@ -253,7 +253,7 @@
             <c r="AV8" s="50" t="inlineStr">
                 <is>
                     <t>
-                        #if($message.main.appCompletionDate) $message.main.appCompletionDate#{else} #end
+                        #if($message.main.appCompletionDate) $dateConverter.convert($message.main.appCompletionDate)#{else} #end
                     </t>
                 </is>
             </c>
@@ -623,7 +623,7 @@
             <c r="H16" s="30" t="inlineStr">
                 <is>
                     <t>
-                        #if($message.information.paymentDate) $message.information.paymentDate#{else} #end
+                        #if($message.information.paymentDate) $dateConverter.convert($message.information.paymentDate)#{else} #end
                     </t>
                 </is>
             </c>
@@ -780,7 +780,7 @@
             <c r="AU19" s="30" t="inlineStr">
                 <is>
                     <t>
-                        #if($message.information.paymentDate) $message.information.paymentDate#{else} #end
+                        #if($message.information.paymentDate) $dateConverter.convert($message.information.paymentDate)#{else} #end
                     </t>
                 </is>
             </c>
@@ -1214,7 +1214,7 @@
             <c r="U$currentRow" s="102"/>
             <c r="V$currentRow" s="100">
                 <is>
-                    <t>#if($rowRow.amounts.retentionTotal)$rowRow.amounts.retentionTotal#{else} #end</t>
+                    <t>#if($rowRow.amounts.retentionTotal)$numbersTool.formatValue($rowRow.amounts.retentionTotal)#{else} #end</t>
                 </is>
             </c>
             <c r="W$currentRow" s="100"/>
@@ -1222,12 +1222,12 @@
             <c r="Y$currentRow" s="100"/>
             <c r="Z$currentRow" s="87">
                 <is>
-                    <t>#if($rowRow.amounts.postage)$rowRow.amounts.postage#{else} #end</t>
+                    <t>#if($rowRow.amounts.postage)$numbersTool.formatValue($rowRow.amounts.postage)#{else} #end</t>
                 </is>
             </c>
             <c r="AA$currentRow" s="100">
                 <is>
-                    <t>#if($rowRow.amounts.deliveryCost)$rowRow.amounts.deliveryCost#{else} #end</t>
+                    <t>#if($rowRow.amounts.deliveryCost)$numbersTool.formatValue($rowRow.amounts.deliveryCost)#{else} #end</t>
                 </is>
             </c>
             <c r="AB$currentRow" s="100"/>
@@ -1252,7 +1252,7 @@
             <c r="AI$currentRow" s="102"/>
             <c r="AJ$currentRow" s="102">
                 <is>
-                    <t>#if($rowRow.purposePayment.date)$rowRow.purposePayment.date#{else} #end</t>
+                    <t>#if($rowRow.purposePayment.date)$dateConverter.convert($rowRow.purposePayment.date)#{else} #end</t>
                 </is>
             </c>
             <c r="AK$currentRow" s="102"/>
@@ -1277,7 +1277,7 @@
             </c>
             <c r="AS$currentRow" s="86">
                 <is>
-                    <t>#if($rowRow.recoverer.mIRcard.dateBirth)$rowRow.recoverer.mIRcard.dateBirth#{else} #end</t>
+                    <t>#if($rowRow.recoverer.mIRcard.dateBirth)$dateConverter.convert($rowRow.recoverer.mIRcard.dateBirth)#{else} #end</t>
                 </is>
             </c>
             <c r="AT$currentRow" s="86">
@@ -1336,7 +1336,7 @@
             <c r="U$currentRow" s="102"/>
             <c r="V$currentRow" s="100">
                 <is>
-                    <t>#if($row.totalWithheldPayment.amountRetentionAll)$row.totalWithheldPayment.amountRetentionAll#{else} #end</t>
+                    <t>#if($row.totalWithheldPayment.amountRetentionAll)$numbersTool.formatValue($row.totalWithheldPayment.amountRetentionAll)#{else} #end</t>
                 </is>
             </c>
             <c r="W$currentRow" s="100"/>
@@ -1344,12 +1344,12 @@
             <c r="Y$currentRow" s="100"/>
             <c r="Z$currentRow" s="87">
                 <is>
-                    <t>#if($row.totalWithheldPayment.postage)$row.totalWithheldPayment.postage#{else} #end</t>
+                    <t>#if($row.totalWithheldPayment.postage)$numbersTool.formatValue($row.totalWithheldPayment.postage)#{else} #end</t>
                 </is>
             </c>
             <c r="AA$currentRow" s="100">
                 <is>
-                    <t>#if($row.totalWithheldPayment.deliveryCost)$row.totalWithheldPayment.deliveryCost#{else} #end</t>
+                    <t>#if($row.totalWithheldPayment.deliveryCost)$numbersTool.formatValue($row.totalWithheldPayment.deliveryCost)#{else} #end</t>
                 </is>
             </c>
             <c r="AB$currentRow" s="100"/>
@@ -1407,7 +1407,7 @@
             <c r="U$currentRow" s="102"/>
             <c r="V$currentRow" s="100">
                 <is>
-                    <t>#if($message.table.amountRetentionTotal)$message.table.amountRetentionTotal#{else} #end</t>
+                    <t>#if($message.table.amountRetentionTotal)$numbersTool.formatValue($message.table.amountRetentionTotal)#{else} #end</t>
                 </is>
             </c>
             <c r="W$currentRow" s="100"/>
@@ -1415,12 +1415,12 @@
             <c r="Y$currentRow" s="100"/>
             <c r="Z$currentRow" s="87">
                 <is>
-                    <t>#if($message.table.postageTotal)$message.table.postageTotal#{else} #end</t>
+                    <t>#if($message.table.postageTotal)$numbersTool.formatValue($message.table.postageTotal)#{else} #end</t>
                 </is>
             </c>
             <c r="AA$currentRow" s="100">
                 <is>
-                    <t>#if($message.table.deliveryCostTotal)$message.table.deliveryCostTotal#{else} #end</t>
+                    <t>#if($message.table.deliveryCostTotal)$numbersTool.formatValue($message.table.deliveryCostTotal)#{else} #end</t>
                 </is>
             </c>
             <c r="AB$currentRow" s="100"/>
@@ -1877,7 +1877,7 @@
             <c r="A$currentRow" s="64" t="inlineStr">
                 <is>
                     <t>
-                        #if($message.main.appCompletionDate) $message.main.appCompletionDate #{else} #end
+                        #if($message.main.appCompletionDate) $dateConverter.convert($message.main.appCompletionDate) #{else} #end
                     </t>
                 </is>
             </c>
