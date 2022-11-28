@@ -1,4 +1,3 @@
-import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
 import org.apache.commons.io.FileUtils;
@@ -10,7 +9,6 @@ import ru.gov.pfr.ecp.fo.printedform.lib.util.NumbersTool;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
-import java.util.Map;
 
 public class VelocityConverter {
     public static void main(String[] args) throws IOException {
@@ -25,31 +23,48 @@ public class VelocityConverter {
         //xStream.registerConverter(new MapEntryConverter());
         //Map<String, Object> map = (Map<String, Object>) xStream.fromXML(file);
 
-        xStream.processAnnotations(DataDTO.class);
+//        xStream.processAnnotations(DataDTO.class);
+//
+//        xStream.processAnnotations(Recipients.class);
+//        xStream.processAnnotations(Payments.class);
+//        xStream.processAnnotations(Retentions.class);
+//
+//        xStream.processAnnotations(Recipient.class);
+//        xStream.processAnnotations(Payment.class);
+//        xStream.processAnnotations(Retention.class);
 
-        xStream.processAnnotations(Recipients.class);
+        xStream.processAnnotations(MessageDTO.class);
+        xStream.processAnnotations(Main.class);
+        xStream.processAnnotations(Division.class);
+        xStream.processAnnotations(Information.class);
+        xStream.processAnnotations(RecipientDetails.class);
+        xStream.processAnnotations(RecipientBankDetails.class);
+        xStream.processAnnotations(Table.class);
         xStream.processAnnotations(Payments.class);
-        xStream.processAnnotations(Retentions.class);
+        xStream.processAnnotations(PaymentType.class);
+        xStream.processAnnotations(DeductionsByTypePayment.class);
+        xStream.processAnnotations(PersonInfo.class);
+        xStream.processAnnotations(Amounts.class);
+        xStream.processAnnotations(PurposePayment.class);
+        xStream.processAnnotations(Recoverer.class);
 
-        xStream.processAnnotations(Recipient.class);
-        xStream.processAnnotations(Payment.class);
-        xStream.processAnnotations(Retention.class);
+//        DataDTO data = (DataDTO) xStream.fromXML(file);
 
-        DataDTO data = (DataDTO) xStream.fromXML(file);
+        MessageDTO message = (MessageDTO) xStream.fromXML(file);
 
-
-        context.put("data", data);
+//        context.put("data", data);
+        context.put("message", message);
         context.put("numbersTool", new NumbersTool());
         context.put("dateConverter", new DateConverter());
 
         StringWriter stringWriter = new StringWriter();
-        Reader reader = new FileReader("src/main/resources/in/sheet1My.xml", StandardCharsets.UTF_8);
+        Reader reader = new FileReader("src/main/resources/in/new.xml", StandardCharsets.UTF_8);
         Velocity.evaluate(context, stringWriter, "VelocityService", reader);
 
         byte[] bytes = stringWriter.toString().getBytes(StandardCharsets.UTF_8);
         String result = Arrays.toString(bytes);
 
-        FileUtils.writeByteArrayToFile(new File("src/main/resources/out/sheet1My.xml"), bytes);
+        FileUtils.writeByteArrayToFile(new File("src/main/resources/out/new.xml"), bytes);
 
         System.out.println("Success");
     }
