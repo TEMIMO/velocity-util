@@ -1449,6 +1449,7 @@
         </row>
 
         #set ($currentRow = $currentRow + 3)
+        #set ($end1 = $currentRow)
         <row r="$currentRow" spans="1:54" s="6" customFormat="1" ht="11.85" customHeight="1" x14ac:dyDescent="0.2">
             <c r="A$currentRow" s="64" t="inlineStr">
                 <is>
@@ -1517,21 +1518,13 @@
             <c r="H$currentRow" s="103"/>
             <c r="I$currentRow" s="103"/>
             <c r="J$currentRow" s="103"/>
-            <c r="K$currentRow" s="85" t="inlineStr">
-                <is>
-                    <t>(подпись)</t>
-                </is>
-            </c>
+            <c r="K$currentRow" s="85"/>
             <c r="L$currentRow" s="85"/>
             <c r="M$currentRow" s="85"/>
             <c r="N$currentRow" s="102"/>
             <c r="O$currentRow" s="102"/>
             <c r="P$currentRow" s="102"/>
-            <c r="Q$currentRow" s="86" t="inlineStr">
-                <is>
-                    <t>(расшифровка подписи)</t>
-                </is>
-            </c>
+            <c r="Q$currentRow" s="86"/>
             <c r="R$currentRow" s="102"/>
             <c r="S$currentRow" s="102"/>
             <c r="T$currentRow" s="102"/>
@@ -1544,11 +1537,19 @@
             <c r="AA$currentRow" s="100"/>
             <c r="AB$currentRow" s="100"/>
             <c r="AC$currentRow" s="102"/>
-            <c r="AD$currentRow" s="102"/>
+            <c r="AD$currentRow" s="102" t="inlineStr">
+                <is>
+                    <t>(подпись)</t>
+                </is>
+            </c>
             <c r="AE$currentRow" s="102"/>
             <c r="AF$currentRow" s="102"/>
             <c r="AG$currentRow" s="102"/>
-            <c r="AH$currentRow" s="102"/>
+            <c r="AH$currentRow" s="102" t="inlineStr">
+                <is>
+                    <t>(расшифровка подписи)</t>
+                </is>
+            </c>
             <c r="AI$currentRow" s="102"/>
             <c r="AJ$currentRow" s="102"/>
             <c r="AK$currentRow" s="102"/>
@@ -1568,6 +1569,7 @@
         </row>
 
         #set ($currentRow = $currentRow + 3)
+        #set ($end2 = $currentRow)
         <row r="$currentRow" spans="1:54" s="6" customFormat="1" ht="11.85" customHeight="1" x14ac:dyDescent="0.2">
             <c r="A$currentRow" s="64" t="inlineStr">
                 <is>
@@ -1636,21 +1638,13 @@
             <c r="H$currentRow" s="103"/>
             <c r="I$currentRow" s="103"/>
             <c r="J$currentRow" s="103"/>
-            <c r="K$currentRow" s="85" t="inlineStr">
-                <is>
-                    <t>(подпись)</t>
-                </is>
-            </c>
+            <c r="K$currentRow" s="85"/>
             <c r="L$currentRow" s="85"/>
             <c r="M$currentRow" s="85"/>
             <c r="N$currentRow" s="102"/>
             <c r="O$currentRow" s="102"/>
             <c r="P$currentRow" s="102"/>
-            <c r="Q$currentRow" s="86" t="inlineStr">
-                <is>
-                    <t>(расшифровка подписи)</t>
-                </is>
-            </c>
+            <c r="Q$currentRow" s="86"/>
             <c r="R$currentRow" s="102"/>
             <c r="S$currentRow" s="102"/>
             <c r="T$currentRow" s="102"/>
@@ -1663,11 +1657,19 @@
             <c r="AA$currentRow" s="100"/>
             <c r="AB$currentRow" s="100"/>
             <c r="AC$currentRow" s="102"/>
-            <c r="AD$currentRow" s="102"/>
+            <c r="AD$currentRow" s="102" t="inlineStr">
+                <is>
+                    <t>(подпись)</t>
+                </is>
+            </c>
             <c r="AE$currentRow" s="102"/>
             <c r="AF$currentRow" s="102"/>
             <c r="AG$currentRow" s="102"/>
-            <c r="AH$currentRow" s="102"/>
+            <c r="AH$currentRow" s="102" t="inlineStr">
+                <is>
+                    <t>(расшифровка подписи)</t>
+                </is>
+            </c>
             <c r="AI$currentRow" s="102"/>
             <c r="AJ$currentRow" s="102"/>
             <c r="AK$currentRow" s="102"/>
@@ -1687,6 +1689,7 @@
         </row>
 
         #set ($currentRow = $currentRow + 3)
+        #set ($end3 = $currentRow)
         <row r="$currentRow" spans="1:54" s="6" customFormat="1" ht="11.85" customHeight="1" x14ac:dyDescent="0.2">
             <c r="A$currentRow" s="64" t="inlineStr">
                 <is>
@@ -1745,6 +1748,7 @@
         </row>
 
         #set ($currentRow = $currentRow + 3)
+        #set ($end4 = $currentRow)
         <row r="$currentRow" spans="1:54" s="6" customFormat="1" ht="11.85" customHeight="1" x14ac:dyDescent="0.2">
             <c r="A$currentRow" s="64" t="inlineStr">
                 <is>
@@ -1809,29 +1813,17 @@
             <c r="D$currentRow" s="102"/>
             <c r="E$currentRow" s="102"/>
             <c r="F$currentRow" s="102"/>
-            <c r="G$currentRow" s="102" t="inlineStr">
-                <is>
-                    <t>(должность)</t>
-                </is>
-            </c>
+            <c r="G$currentRow" s="102"/>
             <c r="H$currentRow" s="103"/>
             <c r="I$currentRow" s="103"/>
             <c r="J$currentRow" s="103"/>
-            <c r="K$currentRow" s="85" t="inlineStr">
-                <is>
-                    <t>(подпись)</t>
-                </is>
-            </c>
+            <c r="K$currentRow" s="85"/>
             <c r="L$currentRow" s="85"/>
             <c r="M$currentRow" s="85"/>
             <c r="N$currentRow" s="102"/>
             <c r="O$currentRow" s="102"/>
             <c r="P$currentRow" s="102"/>
-            <c r="Q$currentRow" s="86" t="inlineStr">
-                <is>
-                    <t>(расшифровка подписи)</t>
-                </is>
-            </c>
+            <c r="Q$currentRow" s="86"/>
             <c r="R$currentRow" s="102"/>
             <c r="S$currentRow" s="102"/>
             <c r="T$currentRow" s="102"/>
@@ -1842,17 +1834,25 @@
             <c r="Y$currentRow" s="100"/>
             <c r="Z$currentRow" s="87" t="inlineStr">
                 <is>
-                    <t>(телефон)</t>
+                    <t>(должность)</t>
                 </is>
             </c>
             <c r="AA$currentRow" s="100"/>
             <c r="AB$currentRow" s="100"/>
             <c r="AC$currentRow" s="102"/>
-            <c r="AD$currentRow" s="102"/>
+            <c r="AD$currentRow" s="102" t="inlineStr">
+                <is>
+                    <t>(подпись)</t>
+                </is>
+            </c>
             <c r="AE$currentRow" s="102"/>
             <c r="AF$currentRow" s="102"/>
             <c r="AG$currentRow" s="102"/>
-            <c r="AH$currentRow" s="102"/>
+            <c r="AH$currentRow" s="102" t="inlineStr">
+                <is>
+                    <t>(расшифровка подписи)</t>
+                </is>
+            </c>
             <c r="AI$currentRow" s="102"/>
             <c r="AJ$currentRow" s="102"/>
             <c r="AK$currentRow" s="102"/>
@@ -1861,7 +1861,11 @@
             <c r="AN$currentRow" s="102"/>
             <c r="AO$currentRow" s="102"/>
             <c r="AP$currentRow" s="102"/>
-            <c r="AQ$currentRow" s="102"/>
+            <c r="AQ$currentRow" s="102" t="inlineStr">
+                <is>
+                    <t>(телефон)</t>
+                </is>
+            </c>
             <c r="AR$currentRow" s="86"/>
             <c r="AS$currentRow" s="86"/>
             <c r="AT$currentRow" s="86"/>
@@ -1873,6 +1877,7 @@
 
 
         #set ($currentRow = $currentRow + 3)
+        #set ($end5 = $currentRow)
         <row r="$currentRow" spans="1:54" s="6" customFormat="1" ht="11.85" customHeight="1" x14ac:dyDescent="0.2">
             <c r="A$currentRow" s="64" t="inlineStr">
                 <is>
@@ -1942,7 +1947,7 @@
     #end
 
     #set ($startMergeCount = 68)
-    #set ($endMergeCount = $startMergeCount + $counter * 13 + 1)
+    #set ($endMergeCount = $startMergeCount + $counter * 13 + 1 + 12)
 
     <mergeCells count="$endMergeCount">
         #set ($startRow = 26)
@@ -1966,7 +1971,7 @@
         #set ($currentRow = $currentRow + 1)
         <mergeCell ref="C$currentRow:G$currentRow"/>
         <mergeCell ref="H$currentRow:J$currentRow"/>
-        <mergeCell ref="N$currentRow:P$currentRow"/>
+        <mergeCell ref="N$currentRow:U$currentRow"/>
         <mergeCell ref="R$currentRow:U$currentRow"/>
         <mergeCell ref="V$currentRow:Y$currentRow"/>
         <mergeCell ref="AA$currentRow:AB$currentRow"/>
@@ -1991,6 +1996,26 @@
         <mergeCell ref="AJ$currentRow:AL$currentRow"/>
         <mergeCell ref="AM$currentRow:AO$currentRow"/>
         <mergeCell ref="AP$currentRow:AQ$currentRow"/>
+
+        <mergeCell ref="A$end1:J$end1"/>
+        #set ($end1 = $end1 + 1)
+        <mergeCell ref="AD$end1:AF$end1"/>
+        <mergeCell ref="AH$end1:AL$end1"/>
+
+        <mergeCell ref="A$end2:Q$end2"/>
+        #set ($end2 = $end2 + 1)
+        <mergeCell ref="AD$end2:AF$end2"/>
+        <mergeCell ref="AH$end2:AL$end2"/>
+
+        <mergeCell ref="A$end4:E$end4"/>
+        #set ($end4 = $end4 + 1)
+        <mergeCell ref="AD$end4:AF$end4"/>
+        <mergeCell ref="AH$end4:AL$end4"/>
+        <mergeCell ref="AQ$end4:AR$end4"/>
+        <mergeCell ref="Z$end4:AA$end4"/>
+
+        <mergeCell ref="A$end5:D$end5"/>
+        #set ($end5 = $end5 + 1)
 
         <mergeCell ref="AT21:AT24"/>
         <mergeCell ref="AA25:AB25"/>

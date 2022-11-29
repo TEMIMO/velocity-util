@@ -58,13 +58,13 @@ public class VelocityConverter {
         context.put("dateConverter", new DateConverter());
 
         StringWriter stringWriter = new StringWriter();
-        Reader reader = new FileReader("src/main/resources/in/new.xml", StandardCharsets.UTF_8);
+        Reader reader = new FileReader("src/main/resources/in/newNew.xml", StandardCharsets.UTF_8);
         Velocity.evaluate(context, stringWriter, "VelocityService", reader);
 
         byte[] bytes = stringWriter.toString().getBytes(StandardCharsets.UTF_8);
         String result = Arrays.toString(bytes);
 
-        FileUtils.writeByteArrayToFile(new File("src/main/resources/out/new.xml"), bytes);
+        FileUtils.writeByteArrayToFile(new File("src/main/resources/out/newNew.xml"), bytes);
 
         System.out.println("Success");
     }
